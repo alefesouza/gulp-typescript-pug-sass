@@ -4,6 +4,16 @@ doctype
 html
   include _head
   body
-    #main.test Uma div com id main e class test
+    include _navbar
+    .container
+      .example-btn Custom Bootstrap button color:
+        .btn.btn-primary Primary
+        .btn.btn-warning Warning
+        .btn.btn-danger Danger
 
-    script(src='index.js?v=' + app.version)
+      .row
+        each developer in developers
+          .col-12.col-md-6.col-lg-4
+            include _devcard
+
+    script(src='bundle.min.js?v=' + app.version)

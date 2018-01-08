@@ -5,10 +5,22 @@
   "repository": "https://github.com/alefesouza/gulp-typescript-pug-sass",
   "author": "Alefe Souza <contact@alefesouza.com>",
   "license": "MIT",
-  "dependencies": {},
+  "scripts": {
+    "dist": "gulp dist"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-beta.3",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-minify": "^2.1.0",
     "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-typescript": "^3.2.3",
     "typescript": "^2.6.2"

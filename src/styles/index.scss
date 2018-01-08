@@ -1,6 +1,16 @@
 @import 'variables';
+@import 'node_modules/bootstrap/scss/bootstrap';
 body {
-  .test {
-    background-color: $color-primary;
+  .btn {
+    margin-left: 10px;
+  }
+  .card {
+    margin-top: 15px;
+    .card-img-top {
+      height: 200px;
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
 }
