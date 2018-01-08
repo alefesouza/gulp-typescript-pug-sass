@@ -1,0 +1,16 @@
+{
+  "name": "gulp-typescript-pug-sass",
+  "version": "1.0.0",
+  "description": "A front-end workflow using Gulp, TypeScript, Pug and Sass.",
+  "repository": "https://github.com/alefesouza/gulp-typescript-pug-sass",
+  "author": "Alefe Souza <contact@alefesouza.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-typescript": "^3.2.3",
+    "typescript": "^2.6.2"
+  }
+}
